@@ -5,7 +5,8 @@
 
 .project-container {
     max-width: 1140px;
-    margin: auto;
+    margin: 0 1rem;
+    margin-right: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
@@ -42,19 +43,22 @@
     padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 320px) {
     .project-container {
-        max-width: 80%;
-        margin: auto;
+        width: 90%;
+        max-width: 100px;
+        /* margin: auto; */
+        /* display: grid; */
         grid-template-columns: 1fr;
     }
 }
 
-/* @media screen and (max-width: 325px) {
+@media screen and (max-width: 740px) {
     .project-container {
-        max-width: 90%;
-        margin: 1rem 1rem;
-        padding-right: 1rem;
+        width: 80%;
+        max-width: 100px;
+        /* margin: auto; */
+        /* margin-left: px; */
         grid-template-columns: 1fr;
     }
-} */
+}
