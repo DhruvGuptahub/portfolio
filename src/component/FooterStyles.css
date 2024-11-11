@@ -37,21 +37,45 @@
     padding: 1rem;
 }
 
-.social{
-    margin-top: 1rem;
-}
-
 h4 {
     font-size: 1.2rem;
     padding-bottom: 0.7rem;
 }
 
-p{
+p {
     font-size: 1.2rem;
 }
 
-@media screen and  (max-width: 640px){
+.contact-icon {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon .items {
+    background-color: black;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid yellow;
+}
+
+.contact-icon .items:hover {
+    background-color: rgb(40, 47, 97);
+    box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+}
+
+.contact-icon .items .icons {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 640px) {
     .footer-container {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: 1fr;
+    }
 }
