@@ -43,7 +43,7 @@ h4 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-icon {
@@ -51,6 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .contact-icon .items {
@@ -75,7 +76,26 @@ p {
 }
 
 @media screen and (max-width: 640px) {
+    .footer {
+        width: 100%;
+    }
+
     .footer-container {
         grid-template-columns: 1fr;
+    }
+
+    .contact-icon {
+        display: grid;
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+
+    .contact-icon .items {
+        height: 45px;
+        width: 45px;
+    }
+
+    .contact-icon .items .icons {
+        font-size: 1.5rem;
     }
 }
