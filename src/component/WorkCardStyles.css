@@ -65,7 +65,7 @@
 /* Small Screen Adjustments */
 @media screen and (max-width: 425px) {
     .project-container {
-        padding: 0 1rem;
+        padding: 1rems 1rem;
         /* Reduce padding on very small screens */
     }
 
