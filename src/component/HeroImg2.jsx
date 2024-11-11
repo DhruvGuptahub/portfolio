@@ -1,9 +1,14 @@
 import React from 'react'
 import "./HeroImg2Styles.css"
+import IntroImg from '../assets/intro-bg.jpg'
+
 
 function HeroImg2(props) {
     return (
         <div className='hero-img'>
+            <div className="mask">
+                <img className='into-img' src={IntroImg} alt="Introimg" />
+            </div>
             <div className='heading'>
                 <h1>{props.heading}</h1>
                 <p>{props.text}</p>
