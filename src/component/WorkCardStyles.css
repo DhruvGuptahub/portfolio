@@ -66,6 +66,7 @@
 @media screen and (max-width: 425px) {
     .project-container {
         padding: 1rems 1rem;
+        margin-bottom: 1rem;
         /* Reduce padding on very small screens */
     }
 
