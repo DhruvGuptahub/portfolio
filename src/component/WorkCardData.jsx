@@ -32,7 +32,7 @@ const projectCardData = [
     },
     {
         imgsrc: SimpleTodo,
-        title: "Quizz Design WebApp",
+        title: "Simple Todo WebApp",
         text: "This is Basic React WebApp that build on CRUD functionality. It takes the data in the input field and stores it at the DOM. We can toggle it for complition by clicking on it and We also the Delete Functionality so we can delete if want the task to be deleted.",
         view: "https://simple-todo-list-chi.vercel.app/",
         source: "https://github.com/DhruvGuptahub/todo-list"
@@ -47,7 +47,7 @@ const projectCardData = [
     {
         imgsrc: TypicodeTodo,
         title: "Typicode Todo WebApp",
-        text: "This is a simple todo list application built with JavaScript. It allows users to create, view, update, and delete todo items. The application interacts with a RESTful API to store and retrieve todo data.Features: User can Add todo, View todo, Click at todo for mark it as completed and double click at todo to delete it. All this action also performs at API. This application interacts with the JSONPlaceholder API(https://jsonplaceholder.typicode.com) to perform CRUD operations on todo items. The core functionality of the application is implemented using JavaScript for DOM manipulation and API interactions. ",
+        text: "This is a simple todo list application built with JavaScript. It allows users to create, view, update, and delete todo items. The application interacts with a RESTful API to store and retrieve todo data.Features: User can Add todo, View todo, Click at todo for mark it as completed and double click at todo to delete it. All this action also performs at API. This application interacts with the JSONPlaceholder API **https://jsonplaceholder.typicode.com** to perform CRUD operations on todo items. The core functionality of the application is implemented using JavaScript for DOM manipulation and API interactions. ",
         view: "https://typicodetodomini.netlify.app/",
         source: "https://github.com/DhruvGuptahub/typicode--todos--mini-project"
     },
