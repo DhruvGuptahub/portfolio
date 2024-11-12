@@ -1,5 +1,5 @@
 
-  <h1 style={{alignitems: center}}>***My Portfolio***</h1>
+  <h1>***My Portfolio***</h1>
 
 *In this I showcased my projects and Add contact details so anyone wants to connect with it can do.*
 
